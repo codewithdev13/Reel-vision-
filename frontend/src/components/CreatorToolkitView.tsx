@@ -32,7 +32,7 @@ import {
   Lightbulb,
 } from 'lucide-react';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
 
 interface CreatorToolkitViewProps {
   apiKey: string;

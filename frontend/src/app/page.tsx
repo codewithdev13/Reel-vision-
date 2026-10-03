@@ -10,7 +10,7 @@ import { CreatorToolkitView } from '@/components/CreatorToolkitView';
 import { VideoAnalysisResult, ComparisonResult, BatchRankResult } from '@/types';
 import { Sparkles, AlertCircle, Film, GitCompare, BarChart3, Wand2, X } from 'lucide-react';
 
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:8000';
+const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || '';
 
 // Toast notification component
 function Toast({ message, onClose }: { message: string; onClose: () => void }) {
